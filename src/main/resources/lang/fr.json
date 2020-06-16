@@ -1,0 +1,43 @@
+{
+  "INVALID_PORT": "Vous devez définir le port du serveur avant de le lancer",
+  "UNKNOWN_SAVER": "Vous devez spécifier un saver avant de lancer le serveur",
+  "STARTING_SERVER": "Démarrage du serveur en cours...",
+  "STOPPING_SERVER": "Arret du serveur en cours...",
+  "PORT_HELP": "Vous devez définir un port via /trixcore setup <port>",
+  "ERROR": "Erreur ",
+
+  "CMD_PORT_ALREADY_RESET": "Le port a déjà été réinitialisé",
+  "CMD_PORT_SUCCESSFULLY_RESET": "Le port a bien été réinitialisé",
+  "CMD_NEED_RESET_BEFORE": "Vous devez réinitialiser le port avant d'en définir un nouveau",
+  "CMD_PORT_SUCCESSFULLY_SETUP": "Le port a bien été définit sur {0}",
+
+  "SAVER_SAVE_SECRET_KEY": "Nouvelle clé secrete : {0}",
+  "SAVER_SAVING_SECRET_KEY": "Sauvegarde de la clé...",
+  "SAVER_SECRET_KEY_SAVED": "La clé a bien été sauvegardée",
+  "SAVER_SAVE_SECRET_KEY_ERROR": "Impossible de sauvegarder la clé",
+  "SAVER_SAVING_SERVER_PORT": "Sauvegarde du port... ",
+
+  "HTTP_INVALID_ARGS_AMOUNT": "Il manque des arguments",
+  "HTTP_INVALID_ARG": "L'argument est incorrect",
+  "HTTP_TRIXCORE_NOT_LINKED": "TrixCore non lie",
+  "HTTP_METHOD_NOT_FOUND": "Méthode {0} non trouvée",
+  "HTTP_RUNNING_METHOD": "Exécution de la méthode  {0} {1}",
+  "HTTP_DECRYPT_REQUEST_ERROR": "Probleme lors du decryptage de la requete",
+  "HTTP_RESOURCE_NOT_FOUND": "Ressource non trouvée",
+  "HTTP_SERVER_LISTENING": "TrixCore est à l'écoute sur  {0}:{1} et a demarré en {2} ms",
+  "HTTP_SERVER_SUCCESSFULLY_STOPPED": "Le serveur s'est bien arrété",
+  "HTTP_RUNNING_COMMAND": "Execution de la commande {0}",
+  "HTTP_TASK_SAVE_COMMAND_ERROR": "Impossible de sauvegarder la commande",
+  "HTTP_TASK_SAVE_COMMAND_SUCCESS": "La commande {0} va s'executer toute les {1} secondes.",
+  "HTTP_MOTD_EDITED_SUCCESSFULLY": "Le MOTD a bien été modifié",
+  "HTTP_MOTD_ERROR": "Impossible de changer le MOTD",
+
+  "TASKS_SUCCESSFULLY_LOADED": "Chargement de  {0} commandes à planifier",
+  "TASKS_CANCELLED_SUCCESSFULLY": "Les tâches planifiées ont bien été annulé",
+  "TASKS_SAVING": "Sauvegarde des commandes planifiées...",
+  "TASK_SCHEDULED_SUCCESSFULLY": "La tâche a bien été planifiée",
+  "TASK_DELETED_SUCCESSFULLY": "La tâche a bien été supprimée",
+
+  "PLUGIN_MINEWEB": "Il semblerait que le plugin MinewebBridge soit active sur votre serveur. Pour eviter tous problèmes de compatibilite merci de le desactiver d'abord.",
+  "PLUGIN_AZLINK": "Il semblerait que le plugin AzLink soit active sur votre serveur. Pour eviter tous problèmes de compatibilite merci de le desactiver d'abord."
+}

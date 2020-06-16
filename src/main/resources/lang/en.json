@@ -1,0 +1,43 @@
+{
+  "INVALID_PORT": "You have to set the port before starting the server",
+  "UNKNOWN_SAVER": "You have to specify a config object before starting the server",
+  "STARTING_SERVER": "Starting server ...",
+  "STOPPING_SERVER": "Stopping server ...",
+  "PORT_HELP": "You need to setup a port via /trixcore setup <port>",
+  "ERROR": "Error ",
+
+  "CMD_PORT_ALREADY_RESET": "The port already reset",
+  "CMD_PORT_SUCCESSFULLY_RESET": "Port now reset",
+  "CMD_NEED_RESET_BEFORE": "Please reset the port before configuring a new one",
+  "CMD_PORT_SUCCESSFULLY_SETUP": "Port successfully set to {0}",
+
+  "SAVER_SAVE_SECRET_KEY": "New Secret Key {0}",
+  "SAVER_SAVING_SECRET_KEY": "Saving secretKey...",
+  "SAVER_SECRET_KEY_SAVED": "Key successfully saved",
+  "SAVER_SAVE_SECRET_KEY_ERROR": "Unable to save the key",
+  "SAVER_SAVING_SERVER_PORT": "Saving port...",
+
+  "HTTP_INVALID_ARGS_AMOUNT": "Lacks of arguments",
+  "HTTP_INVALID_ARG": "Invalid argument",
+  "HTTP_TRIXCORE_NOT_LINKED": "TrixCore not linked",
+  "HTTP_METHOD_NOT_FOUND": "Method {0} not found",
+  "HTTP_RUNNING_METHOD": "Running command {0} {1}",
+  "HTTP_DECRYPT_REQUEST_ERROR": "Unable to decrypt the request",
+  "HTTP_RESOURCE_NOT_FOUND": "Resource not found",
+  "HTTP_SERVER_LISTENING": "TrixCore is listening on {0}:{1} and started in {2} ms",
+  "HTTP_SERVER_SUCCESSFULLY_STOPPED": "Server stopped successfully",
+  "HTTP_RUNNING_COMMAND": "Running command {0}",
+  "HTTP_TASK_SAVE_COMMAND_ERROR": "Unable to save the command",
+  "HTTP_TASK_SAVE_COMMAND_SUCCESS": "The command {0} will be executed every {1} seconds.",
+  "HTTP_MOTD_EDITED_SUCCESSFULLY": "MOTD successfully edited",
+  "HTTP_MOTD_ERROR": "Unable to edit the MOTD",
+
+  "TASKS_SUCCESSFULLY_LOADED": "Loaded {0} commands to schedule",
+  "TASKS_CANCELLED_SUCCESSFULLY": "Scheduled tasks canceled",
+  "TASKS_SAVING": "Saving scheduled commands...",
+  "TASK_SCHEDULED_SUCCESSFULLY": "Task scheduled successfully",
+  "TASK_DELETED_SUCCESSFULLY": "Scheduled commands successfully deleted",
+
+  "PLUGIN_MINEWEB": "It seems that MineWebBridge is running on your server. To prevent from incompatibilities please deactivate the plugin.",
+  "PLUGIN_AZLINK": "It seems that AzLink is running on your server. To prevent from incompatibilities please deactivate the plugin."
+}
