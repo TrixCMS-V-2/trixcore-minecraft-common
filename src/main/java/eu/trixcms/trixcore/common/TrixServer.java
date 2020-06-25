@@ -107,14 +107,20 @@ public class TrixServer implements IServer<CommandContainer, MessageRepository> 
     }
 
     @Override
-    public TrixServer registerMethod(IMethod IMethod) throws DuplicateMethodNameException, InvalidMethodDefinitionException {
-        this.method.addMethod(IMethod);
+    public TrixServer registerMethod(IMethod method) throws DuplicateMethodNameException, InvalidMethodDefinitionException {
+        this.method.addMethod(method);
         return this;
     }
 
     @Override
-    public TrixServer registerMethods(IMethod... IMethod) throws DuplicateMethodNameException, InvalidMethodDefinitionException {
-        this.method.addMethods(Arrays.asList(IMethod));
+    public TrixServer registerMethods(IMethod... methods) throws DuplicateMethodNameException, InvalidMethodDefinitionException {
+        this.method.addMethods(Arrays.asList(methods));
+        return this;
+    }
+
+    @Override
+    public IServer<CommandContainer, MessageRepository> overrideMethod(String name, IMethod method) throws InvalidMethodDefinitionException {
+        this.method.overrideMethod(name, method);
         return this;
     }
 
